@@ -1,16 +1,6 @@
 package br.com.rborges;
 
-public class Fisica {
-
-    private String Nome;
-
-    public String getNome() {
-        return Nome;
-    }
-
-    public void setNome(String nome) {
-        Nome = nome;
-    }
+public class  Fisica extends Pessoa {
 
     private double cpf;
 
